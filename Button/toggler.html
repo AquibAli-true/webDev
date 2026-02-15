@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="../output.css" rel="stylesheet">
+    <title>Styled_Toggle</title>
+  </head>
+  <body class="bg-black">
+    <button
+      id="parTog"
+      type="button"
+      data-active="false"
+      class=" group w-40 h-20 bg-[#011627] box-border m-75 rounded-full p-2 relative cursor-pointer data-[active=true]:drop-shadow-[0_0_1rem_rgb(31,81,255)]"
+    >
+      <div
+        class="w-21 h-21 bg-blue-400 rounded-[50px] absolute -top-0.5 left-0 group-data-[active=true]:translate-x-19 transition-all duration-500 ease-in-out"
+      ></div>
+    </button>
+    <script src="togScript.js" ></script>
+  </body>
+</html>
